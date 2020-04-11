@@ -6,10 +6,10 @@
   vars:
     ssh_keys_public_keys:
       - owner: davidfic
-        src: keys/id_rsa.pub 
+        src: keys/davidfic_jupiter.pub 
     ssh_keys_authorized_keys:
       - owner: davidfic
-        src: keys/id_rsa.pub
+        src: keys/davidfic_jupiter.pub
 
 
 
