@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: yes
+  roles:
+  - oefenweb.ssh_keys
+  vars:
+    ssh_keys_public_keys:
+      - owner: davidfic
+        src: keys/id_rsa.pub 
+
+
+
