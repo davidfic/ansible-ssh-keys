@@ -10,9 +10,6 @@
     ssh_keys_authorized_keys:
       - owner: davidfic
         src: keys/davidfic_jupiter.pub
-    ssh_keys_authorized_keys:
-      - owner: davidfic
-        src: keys/davidfic_jupiter.pub
 
 
 
